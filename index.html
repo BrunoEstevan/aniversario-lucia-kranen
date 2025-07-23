@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Feliz Aniversário Lucia!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Partículas de fundo -->
+    <div class="particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <div class="stars">✨ ⭐ ✨</div>
+                <h1>🎂 Feliz Aniversário 🎂</h1>
+                <h2>Lucía Kranen!</h2>
+                <p class="date">23 de julho de 2025</p>
+                <div class="stars">✨ ⭐ ✨</div>
+            </div>
+
+            <!-- Balões CSS -->
+            <div class="balloons">
+                <div class="balloon balloon-1">🎈</div>
+                <div class="balloon balloon-2">🎈</div>
+                <div class="balloon balloon-3">🎈</div>
+                <div class="balloon balloon-4">🎈</div>
+            </div>
+
+            <div class="message">
+                <p class="greeting">Querida Lucía,</p>
+                <p class="question">Você gostaria de comemorar seu aniversário especial comigo? 🥳</p>
+            </div>
+
+            <div class="buttons">
+                <button id="sim-btn">SIM! �</button>
+                <button id="nao-btn">NÃO 😢</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de celebração -->
+    <div id="celebration" class="hidden">
+        <div class="celebration-bg"></div>
+        <div class="video-container">
+            <button id="close-btn">&times;</button>
+            <div class="love-message">
+                <h3>🎉 Que bom que você aceitou! 🎉</h3>
+                
+                <div class="heart-container">
+                    💝💕💖💝💕💖
+                </div>
+                
+                <div class="message-content">
+                    <p class="main-message">
+                        <strong>Lucía, você é muito especial! ❤️</strong>
+                    </p>
+                    
+                    <p class="love-text">
+                        Eu te amo muito e quero que saiba que você é a pessoa mais incrível do mundo! 
+                        Seu sorriso ilumina meus dias e sua presença torna tudo mais bonito. 
+                    </p>
+                    
+                    <p class="birthday-text">
+                        🎂 Hoje é seu dia especial e eu quero que seja maravilhoso! 🎂
+                    </p>
+                    
+                    <p class="special-text">
+                        Você merece todo amor, toda felicidade e todas as coisas boas da vida.
+                        Obrigado por existir e por ser exatamente quem você é! 💕
+                    </p>
+                </div>
+                
+                <div class="heart-container">
+                    🌟✨🌟✨🌟✨
+                </div>
+                
+                <div class="video-section">
+                    <p class="video-intro">E porque hoje é seu aniversário, preparei uma surpresinha musical para você:</p>
+                    <a href="https://www.youtube.com/watch?v=ZE1yh5NoDiU" target="_blank" id="youtube-link">
+                        🎵 Clique aqui para ouvir sua música especial! 🎵
+                    </a>
+                    <p class="video-note">(Vai abrir no YouTube - prepare-se para sorrir! 😊)</p>
+                </div>
+                
+                <div class="final-message">
+                    <p><strong>FELIZ ANIVERSÁRIO, MEU AMOR! 🎈🎂🎉</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "aniversario-lucia-kranen",
+  "version": "1.0.0",
+  "description": "Projeto especial de aniversário para Lucia Kranen",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000"
+  },
+  "keywords": ["aniversario", "birthday", "interactive", "mobile"],
+  "author": "Desenvolvido com ❤️",
+  "license": "MIT"
+}
